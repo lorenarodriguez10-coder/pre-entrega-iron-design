@@ -7,20 +7,30 @@
 body {
   background-color: #e6e3dd;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   max-width: 1100px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
+  flex: 1;
 }
 
 header {
+  padding: 1rem 0;
+  background-color: #26292d;
+}
+
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-  background-color: #26292d;
 }
 
 .nav {
@@ -80,4 +90,14 @@ header {
   font-size: 1.4rem;
   font-weight: bold;
   margin-top: auto;
+}
+
+footer {
+  padding: 1rem 0;
+  background-color: #26292d;
+  color: #f7f6f3;
+}
+
+footer a {
+  color: #f7f6f3;
 }
