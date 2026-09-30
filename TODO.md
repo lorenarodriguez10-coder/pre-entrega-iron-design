@@ -17,6 +17,7 @@
 - [x] Header con nav
 - [x] Tarjetas de productos
 - [x] Footer
+- [ ] Cambiar Flex por Grid
 - [ ] Footer en contacto.html (con div.contenedor)
 - [ ] Formulario de contacto
 - [ ] Cambiar los src de cada producto (todos usan mesa-ratona)
