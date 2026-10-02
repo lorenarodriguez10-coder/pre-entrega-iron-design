@@ -8,16 +8,57 @@
   </head>
   <body>
     <header>
-      <a href="../index.html" class="logo">
-        <img src="../img/logo.jpg" alt="Iron Design" />
-      </a>
-      <nav>
-        <ul class="nav">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../index.html#productos">Productos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+      <div class="contenedor">
+        <a href="../index.html" class="logo">
+          <img src="../img/logo.jpg" alt="Iron Design" />
+        </a>
+        <nav>
+          <ul class="nav">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../index.html#productos">Productos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <main>
+      <h1>Contacto</h1>
+      <p>¿Te interesa algún mueble o querés uno a medida? Escribinos.</p>
+
+      <form
+        class="formulario"
+        action="https://formspree.io/f/mbglevvw"
+        method="post"
+      >
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono (opcional)</label>
+          <input type="tel" id="telefono" name="telefono" />
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <div class="contenedor">
+        <p>Iron Design · Taller de herrería y carpintería</p>
+        <p><a href="./contacto.html">Pedí tu presupuesto</a></p>
+      </div>
+    </footer>
   </body>
 </html>
