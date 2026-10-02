@@ -19,11 +19,10 @@
 - [x] Footer
 - [x] Footer en contacto.html (con div.contenedor)
 - [x] Formulario de contacto
-- [ ] Cambiar los src de cada producto (todos usan mesa-ratona)
-- [ ] Fotos de los productos (nombres en minúscula, sin espacios)
+- [x] Cambiar los src de cada producto (todos usan mesa-ratona)
+- [x] Fotos de los productos (nombres en minúscula, sin espacios)
 - [x] Paleta de colores
-- [ ] Tipografía
-- [ ] README.md
+- [x] Tipografía
 
 ## Bitácora
 
@@ -35,6 +34,11 @@
 
   - 25/09: repo creado, estructura inicial, Pages activo.
   - 26/09: header, productos y footer terminados. Responsive probado a 375px.
-  - 02/10: contacto.html con formulario Formspree y estilos. Media query
+  - 01/10: contacto.html con formulario Formspree y estilos. Media query
     para header/footer. focus-visible en links y botones. Conversión
     a 62.5% (pedido de la profe). CSS organizado y brevemente comentado.
+  - 03/10: fotos reales de los 6 productos (object-fit: contain para que
+    se vean enteras). Cada foto abre en pestaña nueva (link con target="\_blank").
+    Botón Consultar pasa a clase .btn-consultar. Nombre "Iron Design" en el
+    header junto al logo. Tipografía: Oswald (títulos) + Inter (texto) con
+    Google Fonts. "Productos" pasa a h1.
