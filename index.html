@@ -24,6 +24,11 @@
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#productos">Productos</a></li>
             <li><a href="pages/contacto.html">Contacto</a></li>
+            <li>
+              <a href="#carrito">
+                Carrito (<span id="contador-carrito">0</span>)
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -34,6 +39,23 @@
 
         <div class="productos" id="lista-productos">
           <p>Cargando productos...</p>
+        </div>
+      </section>
+
+      <section id="carrito" class="carrito">
+        <h2>Carrito</h2>
+        <p id="carrito-vacio">Todavía no agregaste productos.</p>
+        <ul id="lista-carrito" class="lista-carrito"></ul>
+        <div id="acciones-carrito" class="acciones-carrito" hidden>
+          <p class="total">Total: <span id="total-carrito">$ 0</span></p>
+          <div class="botones-carrito">
+            <button type="button" id="vaciar-carrito" class="btn-secundario">
+              Vaciar carrito
+            </button>
+            <a href="pages/contacto.html" class="btn-consultar">
+              Finalizar pedido
+            </a>
+          </div>
         </div>
       </section>
     </main>

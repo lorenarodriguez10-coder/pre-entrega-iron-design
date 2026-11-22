@@ -13,13 +13,13 @@
 
 ### Entrega mínima
 
-- [ ] Productos consultados vía HTTP con fetch (JSON local)
-- [ ] Tarjetas de productos renderizadas desde JavaScript
+- [x] Productos consultados vía HTTP con fetch (JSON local)
+- [x] Tarjetas de productos renderizadas desde JavaScript
 
 ### Entrega completa
 
-- [ ] Todo lo anterior
-- [ ] Carrito funcionando con localStorage
+- [x] Todo lo anterior
+- [x] Carrito funcionando con localStorage
 
 ### Al entregar
 
@@ -30,9 +30,9 @@
 ## Tareas
 
 - [x] Paso 1: data/productos.json con los 6 productos
-- [ ] Paso 2: vaciar los article del index, dejar div#lista-productos y conectar js/app.js
-- [ ] Paso 3: fetch al JSON + renderizar las tarjetas desde JS
-- [ ] Paso 4: carrito (agregar, sumar/restar, eliminar, vaciar, total) + localStorage
+- [x] Paso 2: vaciar los article del index, dejar div#lista-productos y conectar js/app.js
+- [x] Paso 3: fetch al JSON + renderizar las tarjetas desde JS
+- [x] Paso 4: carrito (agregar, sumar/restar, eliminar, vaciar, total) + localStorage
 - [ ] Paso 5: estilos del carrito
 - [ ] Corregir `.marca { font-size: 2.2 }` → falta la unidad: `2.2rem`
 - [ ] Sacar TODO.md del repo: `git rm --cached TODO.md` (el .gitignore no saca lo que ya estaba subido)
@@ -41,6 +41,13 @@
 
 - 16/11: productos.json creado. Errores encontrados: faltaban `:` en los id
   y sobraba una coma después del último campo de un objeto.
+- 22/11: app.js conectado. Productos con fetch desde data/productos.json y
+  tarjetas renderizadas con JS (entrega mínima). Precio formateado con
+  toLocaleString es-AR. Carrito con localStorage: agregar, sumar/restar,
+  eliminar, vaciar, total y contador en el nav (entrega completa).
+  Errores del día: backtick vs tilde, "prducto", comilla sin cerrar en
+  item-nombre, data-accion "sumar" en el botón de restar.
+  Pendiente: paso 5 (CSS del carrito).
 
 ---
 
