@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mesa ratona",
+    "descripcion": "Hierro y madera de eucalipto. 90 x 42 x 30 cm.",
+    "precio": 250000,
+    "imagen": "img/mesa-ratona.jpg",
+    "alt": "Mesa ratona de hierro y madera"
+  },
+  {
+    "id": 2,
+    "nombre": "Rack de TV",
+    "descripcion": "Hierro y madera de eucalipto. 120 x 60 x 45 cm.",
+    "precio": 480000,
+    "imagen": "img/rack-tv.jpg",
+    "alt": "Rack tv de hierro y madera"
+  },
+  {
+    "id": 3,
+    "nombre": "Esquinero",
+    "descripcion": "Hierro y madera de eucalipto. 170 x 35cm",
+    "precio": 370000,
+    "imagen": "img/esquinero.jpg",
+    "alt": "Esquinero de hierro y madera con 5 estantes"
+  },
+  {
+    "id": 4,
+    "nombre": "Recibidor asimétrico",
+    "descripcion": "Hierro y madera de eucalipto. 70 x 80 x 30 cm.",
+    "precio": 300000,
+    "imagen": "img/recibidor-asimetrico.jpg",
+    "alt": "Recibidor asimétrico de hierro y madera"
+  },
+  {
+    "id": 5,
+    "nombre": "Recibidor simple",
+    "descripcion": "Hierro y madera de eucalipto. 70 x 80 x 30 cm.",
+    "precio": 350000,
+    "imagen": "img/recibidor-simple.jpg",
+    "alt": "Recibidor simple de hierro y madera"
+  },
+  {
+    "id": 6,
+    "nombre": "Barra desayunador",
+    "descripcion": "Hierro y madera de eucalipto. 100 x 90 x 45 cm",
+    "precio": 420000,
+    "imagen": "img/barra-desayunador.jpg",
+    "alt": "Barra desayunador de hierro y madera"
+  }
+]
