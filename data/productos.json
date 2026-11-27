@@ -18,7 +18,7 @@
   {
     "id": 3,
     "nombre": "Esquinero",
-    "descripcion": "Hierro y madera de eucalipto. 170 x 35cm",
+    "descripcion": "Hierro y madera de eucalipto. 170 x 35 cm.",
     "precio": 370000,
     "imagen": "img/esquinero.jpg",
     "alt": "Esquinero de hierro y madera con 5 estantes"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "nombre": "Barra desayunador",
-    "descripcion": "Hierro y madera de eucalipto. 100 x 90 x 45 cm",
+    "descripcion": "Hierro y madera de eucalipto. 100 x 90 x 45 cm.",
     "precio": 420000,
     "imagen": "img/barra-desayunador.jpg",
     "alt": "Barra desayunador de hierro y madera"
