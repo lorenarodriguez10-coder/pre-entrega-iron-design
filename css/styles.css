@@ -131,8 +131,8 @@ header {
 }
 
 .btn-consultar {
-  align-self: flex-start;
   padding: 0.8rem 1.6rem;
+  border: 2px solid transparent;
   background-color: #9c6236;
   color: #f7f6f3;
   text-decoration: none;
@@ -210,6 +210,131 @@ header {
 }
 
 /* ------------------------------------------------------------------ */
+/*                       BOTONES DE LAS TARJETAS                      */
+/* ------------------------------------------------------------------ */
+.botones-producto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.btn-agregar,
+.btn-secundario {
+  padding: 0.8rem 1.6rem;
+  font: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-agregar {
+  color: #f7f6f3;
+  background-color: #26292d;
+  border: 2px solid transparent;
+}
+
+.btn-agregar:hover,
+.btn-agregar:focus-visible {
+  background-color: #44484e;
+}
+
+.btn-secundario {
+  color: #26292d;
+  background-color: transparent;
+  border: 2px solid #26292d;
+}
+
+.btn-secundario:hover,
+.btn-secundario:focus-visible {
+  background-color: #26292d;
+  color: #f7f6f3;
+}
+
+.mensaje-error {
+  color: #9b2c2c;
+}
+
+/* ------------------------------------------------------------------ */
+/*                               CARRITO                              */
+/* ------------------------------------------------------------------ */
+.carrito {
+  margin-top: 4.8rem;
+  padding: 2.4rem;
+  background-color: #f7f6f3;
+  border-radius: 4px;
+}
+
+.carrito h2 {
+  margin-bottom: 1.6rem;
+}
+
+.lista-carrito {
+  list-style: none;
+}
+
+.item-carrito {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #c9c4bb;
+}
+
+.item-nombre {
+  flex: 1 1 180px;
+}
+
+.item-cantidad {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.item-cantidad button,
+.btn-eliminar {
+  width: 3.2rem;
+  height: 3.2rem;
+  font: inherit;
+  border: 2px solid #c9c4bb;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.item-cantidad button:hover,
+.item-cantidad button:focus-visible,
+.btn-eliminar:hover,
+.btn-eliminar:focus-visible {
+  border-color: #9c6236;
+}
+
+.item-subtotal {
+  min-width: 11rem;
+  text-align: right;
+  font-family: "Oswald", Arial, sans-serif;
+}
+
+.acciones-carrito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.total {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 2.4rem;
+}
+
+.botones-carrito {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+/* ------------------------------------------------------------------ */
 /*                               FOOTER                                */
 /* ------------------------------------------------------------------ */
 footer {
@@ -230,5 +355,15 @@ footer a {
   .contenedor {
     flex-direction: column;
     gap: 1.6rem;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+
+  .item-subtotal {
+    min-width: 0;
   }
 }
